@@ -16,5 +16,6 @@
 ## Example:
 - First (main part)
 <img src="https://media.giphy.com/media/83guxMPRXOrDBUptOC/giphy.gif"/>
+
 - Second (login/logout, profile and following)
 <img src="https://media.giphy.com/media/2o6U7Bihta9eEnWt9g/giphy.gif"/>
