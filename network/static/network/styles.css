@@ -1,0 +1,231 @@
+.page-item {
+    cursor:pointer
+}
+
+#likes {
+    display: inline-block;
+    width:35px;
+    height:35px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+.heart_container {
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    display: inline-block;
+    width:35px;
+    height:35px;
+    text-align:center;
+    line-height:45px;
+
+}
+#edit_container {
+    float: right;
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    width:35px;
+    height:35px;
+    text-align:center;
+    line-height:40px;
+
+}
+
+.timestamp {
+    
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    display: inline;
+    padding-right: 50px;
+    text-align:center;
+    line-height:40px;
+}
+
+.save_container {
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    height:35px;
+    margin: auto;
+    text-align:center;
+    line-height:40px;
+    cursor: pointer
+}
+
+.save_container:hover {
+    color: lightgreen;
+}
+.card-title{
+    font-weight: bold;
+    background-color: #f7f7f7dc;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    display: inline-block;
+    text-align:center;
+    line-height:40px;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.button-background {
+    background-color: #ece9e9;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    height:35px;
+    width: 30%;
+    margin: auto;
+    text-align:center;
+    line-height:40px;
+    cursor: pointer 
+}
+
+.button-background:hover {
+    color: lightblue
+}
+
+#create-post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#create-post-textarea {
+    margin: auto;
+    border-radius: 20px;
+    width: 100%;
+    height: 30%;
+}
+
+#create-post-button {
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    height:35px;
+    width: 50%;
+    margin: auto;
+    text-align:center;
+    line-height:40px;
+    cursor: pointer
+}
+
+#create-post-button:hover {
+    color: lightgreen;
+}
+
+.post-holder {
+    margin: auto;
+    width: 50%;
+}
+
+.post-container {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+}
+
+.text-holder {
+    padding: 10px;
+    width: 100%;
+    height: 80%;
+    font-family: sans-serif;
+    word-wrap:break-word;
+}
+
+
+
+#heart-black{
+    font-size: 25px;
+}
+#heart-red{
+    font-size: 25px;
+    color: red;
+}
+#heart-black:hover{
+    font-size: 26px;
+    color:red;
+    cursor:pointer
+}
+#heart-red:hover{
+    font-size: 26px;
+    cursor: pointer;
+}
+
+#edit{
+    font-size: 23px;
+}
+
+#edit:hover {
+    color: lightseagreen;
+    cursor: pointer
+}
+#save, send{
+    font-size: 25px;
+}
+
+#save:hover, #send:hover {
+    color: lightgreen;
+    cursor: pointer
+}
+
+  
+ 
+#Follow {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: lightcyan;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+  }
+
+#Unfollow {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+  }
+
+  h6 {
+      font-size: 24px;
+      font-family: sans-serif;
+      font-weight: bold;
+      display: inline-block;
+      padding: 8px;
+  }
+
+.counter-not-liked {
+    color: black;
+}
+
+.counter-liked {
+    color: rgb(77, 26, 26);
+}

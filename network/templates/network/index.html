@@ -1,0 +1,22 @@
+{% extends "network/layout.html" %}
+
+{% load static %}
+
+{% block scripts %}
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://kit.fontawesome.com/3929e16ef5.js" crossorigin="anonymous"></script>
+    <script type="text/babel" src= {% static 'network/index.js'%}></script>
+{% endblock scripts %}
+
+
+{% block body %}
+
+
+    <div id="menu-posts-container">
+        <div id="menu-posts"></div>
+    </div>
+
+
+{% endblock %}
